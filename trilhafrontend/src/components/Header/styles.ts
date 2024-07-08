@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { colors } from '../../styles'
 
 export const HeaderBar = styled.header`
-  border-bottom: 1px solid ${colors.red};
+  border-bottom: 4px solid ${colors.red};
   padding: 12px;
 `
 
