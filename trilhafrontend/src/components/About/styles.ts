@@ -3,7 +3,6 @@ import { colors } from '../../styles'
 
 export const ContainerInfor = styled.div`
   padding: 56px 0;
-  z-index: 1;
   position: relative;
 
   .container {
