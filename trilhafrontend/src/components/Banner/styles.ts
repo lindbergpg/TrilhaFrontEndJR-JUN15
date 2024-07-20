@@ -11,8 +11,8 @@ export const Image = styled.div`
     position: absolute;
     background-color: #000;
     width: 100%;
-    height: 50%;
-    top: 93px;
+    height: 100%;
+    top: 0;
     left: 0;
     content: '';
     opacity: 0.60;

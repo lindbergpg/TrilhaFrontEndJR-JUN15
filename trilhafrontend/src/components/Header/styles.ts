@@ -4,6 +4,8 @@ import { colors } from '../../styles'
 export const HeaderBar = styled.header`
   border-bottom: 1px solid ${colors.red};
   padding: 12px;
+  z-index: 1;
+  position: relative;
 `
 
 export const ContainerBar = styled.div`
