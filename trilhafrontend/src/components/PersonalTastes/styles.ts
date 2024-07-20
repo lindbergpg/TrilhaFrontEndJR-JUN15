@@ -22,8 +22,14 @@ export const CardPersonalTastes = styled.div`
   span {
     color: ${colors.black};
     font-size: 96px;
-    padding: 24px 0;
+    padding-top: 24px;
   }
+`
+
+export const TitlePersonal = styled.h3`
+  font-size: 18px;
+  margin: 24px 0;
+  color: ${colors.black};
 `
 
 export const Description = styled.p`
