@@ -1,6 +1,7 @@
 import { HeaderBar, ContainerBar, LinkItem, Links, Logo } from './styles'
 
 import logo from '../../assets/images/logo.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
 	return (
@@ -8,7 +9,9 @@ const Header = () => {
 			<div className="container">
 				<ContainerBar>
 					<h1>
-						<Logo src={logo} alt="Codigo Certo" />
+						<Link to="/">
+							<Logo src={logo} alt="Codigo Certo" />
+						</Link>
 					</h1>
 					<nav>
 						<Links>

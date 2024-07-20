@@ -1,5 +1,4 @@
-import { Description, Photograph, ContainerInfor } from './styles'
-import photoPerfil from '../../assets/images/foto.jpg'
+import { Description, ContainerInfor } from './styles'
 import Title from '../Title'
 
 const Motivations = () => (
@@ -8,17 +7,21 @@ const Motivations = () => (
 			<Title>Motivações</Title>
 			<div>
 				<Description>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maxime accusamus accusantium nisi officiis
-					reprehenderit unde nesciunt quam rem molestiae? Accusantium iste sunt nulla impedit ratione officiis accusamus
-					vel omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae culpa, placeat blanditiis odit
-					perspiciatis nostrum aliquam dolorum provident praesentium nihil sint, maiores eveniet. Ipsam animi labore
-					quae officiis culpa nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus delectus in
-					nesciunt consequuntur ea quo laboriosam impedit et quos, officiis nisi accusantium dolorum totam a eaque quae
-					earum odit. Amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam praesentium
-					dolorem dolor omnis, fugiat minus hic! Error molestiae tempore ut cupiditate, aliquam, quidem, sit suscipit
-					explicabo eius vero porro!
+        Busco minha primeira oportunidade
+como desenvolvedor web front end,
+onde poderei aplicar minha paixão pela
+tecnologia e habilidades em HTML, CSS
+e JavaScript para criar experiências web
+envolventes e intuitivas. Estou
+entusiasmado para aprender e crescer
+dentro de um ambiente dinâmico e
+colaborativo, contribuindo para o
+sucesso da equipe e superando
+desafios criativos.
 				</Description>
-				<Photograph src={photoPerfil} />
+				<span className="material-symbols-outlined">
+          diversity_2
+        </span>
 			</div>
 		</div>
 	</ContainerInfor>

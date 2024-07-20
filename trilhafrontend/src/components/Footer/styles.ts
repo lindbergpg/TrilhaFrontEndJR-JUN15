@@ -1,28 +1,34 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
 
-export const HeaderBar = styled.header`
-  border-bottom: 1px solid ${colors.red};
-  padding: 12px;
+export const FooterBar = styled.header`
+  border-top: 1px solid ${colors.red};
+  padding: 24px;
+  margin-top: 48px;
+
+  p {
+    text-align: center;
+    margin: 32px 0 12px;
+    font-size: 12px;
+  }
 `
 
-export const ContainerBar = styled.div`
+export const ContainerFooter = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-`
 
-export const Logo = styled.img`
-  width: 100px;
+  img {
+    width: 180px;
+  }
 `
 
 export const Links = styled.ul`
-  display: flex;
   margin-left: 40px;
 `
 
 export const LinkItem = styled.li`
-  margin-right: 16px;
+  margin-bottom: 16px;
 
   a {
     color: ${colors.white};

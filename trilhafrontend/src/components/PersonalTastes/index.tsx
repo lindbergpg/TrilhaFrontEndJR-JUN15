@@ -1,25 +1,36 @@
-import { Description, Photograph, ContainerInfor } from './styles'
-import photoPerfil from '../../assets/images/foto.jpg'
+import { Description, ContainerInfor, CardPersonalTastes, Cards } from './styles'
 import Title from '../Title'
 
 const PersonalTastes = () => (
 	<ContainerInfor>
 		<div className="container">
 			<Title>Gostos Pessoais</Title>
-			<div>
+      <Cards>
+      <CardPersonalTastes>
+        <span className="material-symbols-outlined">
+          music_note
+        </span>
 				<Description>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maxime accusamus accusantium nisi officiis
-					reprehenderit unde nesciunt quam rem molestiae? Accusantium iste sunt nulla impedit ratione officiis accusamus
-					vel omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae culpa, placeat blanditiis odit
-					perspiciatis nostrum aliquam dolorum provident praesentium nihil sint, maiores eveniet. Ipsam animi labore
-					quae officiis culpa nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus delectus in
-					nesciunt consequuntur ea quo laboriosam impedit et quos, officiis nisi accusantium dolorum totam a eaque quae
-					earum odit. Amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam praesentium
-					dolorem dolor omnis, fugiat minus hic! Error molestiae tempore ut cupiditate, aliquam, quidem, sit suscipit
-					explicabo eius vero porro!
+        A música eletrônica me faz fugir da realidade, ela não serve só nos momentos de alegria, mas nos de tristeza também. Música eletrônica se vive.
 				</Description>
-				<Photograph src={photoPerfil} />
-			</div>
+			</CardPersonalTastes>
+      <CardPersonalTastes>
+        <span className="material-symbols-outlined">
+          fitness_center
+        </span>
+				<Description>
+          Fazer exercícios físicos não fortalece somente o corpo, mas também a mente e a alma. É um momento só seu de investimento exclusivo em você!
+				</Description>
+			</CardPersonalTastes>
+      <CardPersonalTastes>
+      <span className="material-symbols-outlined">
+        podcasts
+      </span>
+				<Description>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, perferendis omnis dolore sunt nobis veritatis incidunt quaerat amet magni dicta ipsum id dolor adipisci esse accusamus distinctio ex, eligendi quidem?
+				</Description>
+			</CardPersonalTastes>
+      </Cards>
 		</div>
 	</ContainerInfor>
 )
