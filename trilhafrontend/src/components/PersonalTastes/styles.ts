@@ -4,6 +4,7 @@ import { colors } from '../../styles'
 export const ContainerInfor = styled.div`
   padding: 56px 0;
   background-color: ${colors.white};
+  position: relative;
   }
 `
 
