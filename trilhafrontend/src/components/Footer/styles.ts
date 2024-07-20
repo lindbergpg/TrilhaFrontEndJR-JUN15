@@ -5,6 +5,7 @@ export const FooterBar = styled.header`
   border-top: 1px solid ${colors.red};
   padding: 24px;
   margin-top: 48px;
+  position: relative;
 
   p {
     text-align: center;
