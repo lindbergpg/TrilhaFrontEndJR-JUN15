@@ -7,6 +7,14 @@ export const ContainerInfor = styled.div`
   .container {
     div {
       display: flex;
+      align-items: center;
+
+      span {
+        max-width: 200px;
+        width: 100%;
+        font-size: 160px;
+        margin-left: 56px;
+      }
     }
   }
 `
@@ -16,10 +24,3 @@ export const Description = styled.p`
   line-height: 22px;
   color: ${colors.white};
   `
-
-export const Photograph = styled.img`
-  max-width: 200px;
-  width: 100%;
-  border-radius: 25% 0 25% 0;
-  margin-left: 56px;
-`

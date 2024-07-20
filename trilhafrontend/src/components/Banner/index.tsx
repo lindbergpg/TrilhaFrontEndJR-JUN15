@@ -8,8 +8,8 @@ const Banner = () => (
 		<Image style={{ backgroundImage: `url(${bannerImg})` }}>
 			<div className="container">
 				<Title>Seja bem vindo ao meu projeto Trilha Inicial Front-End Jr.</Title>
-				<Button type="link" title="Saiba +">
-					Saiba +
+				<Button type="link" title="Contato!" to="/knowmore">
+					Contato!
 				</Button>
 			</div>
 		</Image>

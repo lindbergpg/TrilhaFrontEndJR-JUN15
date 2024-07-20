@@ -7,18 +7,19 @@ export const ContainerInfor = styled.div`
   .container {
     div {
       display: flex;
+      align-items: center;
     }
   }
 `
 
 export const Description = styled.p`
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 28px;
   color: ${colors.white};
   `
 
 export const Photograph = styled.img`
-  max-width: 200px;
+  max-width: 280px;
   width: 100%;
   border-radius: 25% 0 25% 0;
   margin-left: 56px;

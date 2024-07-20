@@ -8,15 +8,12 @@ const About = () => (
 			<Title>Sobre</Title>
 			<div>
 				<Description>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic maxime accusamus accusantium nisi officiis
-					reprehenderit unde nesciunt quam rem molestiae? Accusantium iste sunt nulla impedit ratione officiis accusamus
-					vel omnis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae culpa, placeat blanditiis odit
-					perspiciatis nostrum aliquam dolorum provident praesentium nihil sint, maiores eveniet. Ipsam animi labore
-					quae officiis culpa nemo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus delectus in
-					nesciunt consequuntur ea quo laboriosam impedit et quos, officiis nisi accusantium dolorum totam a eaque quae
-					earum odit. Amet?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate numquam praesentium
-					dolorem dolor omnis, fugiat minus hic! Error molestiae tempore ut cupiditate, aliquam, quidem, sit suscipit
-					explicabo eius vero porro!
+          Olá! Meu nome é Lindberg Pereira Gomes, tenho 31 anos e sou natural de Brasília.
+          Atualmente, trabalho como assistente financeiro de contas a pagar, mas estou buscando uma
+          transição de carreira, estudando Análise e Desenvolvimento de Sistemas.
+          Tenho uma forte paixão por tecnologia e desenvolvimento de software, com especialização em frontend.
+          Meu objetivo de carreira é me tornar um desenvolvedor full stack, combinando meu conhecimento em
+          frontend e backend para criar soluções completas e eficazes.
 				</Description>
 				<Photograph src={photoPerfil} />
 			</div>

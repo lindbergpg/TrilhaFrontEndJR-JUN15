@@ -6,9 +6,9 @@ import PersonalTastes from '../../components/PersonalTastes'
 const Home = () => (
 	<>
 		<Banner />
-		<About />
-		<PersonalTastes />
-		<Motivations />
+    <About />
+    <PersonalTastes />
+    <Motivations />
 	</>
 )
 
