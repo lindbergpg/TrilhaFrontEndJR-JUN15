@@ -27,7 +27,7 @@ export const CardPersonalTastes = styled.div`
 `
 
 export const TitlePersonal = styled.h3`
-  font-size: 18px;
+  font-size: 24px;
   margin: 24px 0;
   color: ${colors.black};
 `

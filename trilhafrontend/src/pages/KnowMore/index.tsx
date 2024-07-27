@@ -1,9 +1,10 @@
 import Banner from '../../components/Banner'
+import Contact from '../../components/Contact'
 
 const KnowMore = () => (
 	<>
 		<Banner />
-		<p>Contatos!</p>
+		<Contact />
 	</>
 )
 
