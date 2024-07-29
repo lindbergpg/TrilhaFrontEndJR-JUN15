@@ -2,16 +2,14 @@
 	"formatter": {
 		"enabled": true,
 		"indentStyle": "tab",
-		"lineWidth": 120
+		"lineWidth": 50
 	},
 	"javascript": {
 		"formatter": {
-			"trailingCommas": "none",
-			"semicolons": "asNeeded",
-			"quoteStyle": "single"
+			"semicolons": "asNeeded"
 		}
 	},
 	"linter": {
-		"enabled": false
+		"enabled": true
 	}
 }

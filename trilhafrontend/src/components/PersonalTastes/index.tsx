@@ -2,7 +2,7 @@ import { Description, ContainerInfor, CardPersonalTastes, Cards, TitlePersonal }
 import Title from '../Title'
 
 const PersonalTastes = () => (
-	<ContainerInfor>
+	<ContainerInfor id="personaltastes">
 		<div className="container">
 			<Title>Gostos Pessoais</Title>
       <Cards>

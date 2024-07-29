@@ -14,13 +14,13 @@ const Footer = () => (
 				<nav>
 					<Links>
 						<LinkItem>
-							<a href="#">Sobre</a>
+							<a href="#about">Sobre</a>
 						</LinkItem>
 						<LinkItem>
-							<a href="#">Gostos pessoais</a>
+							<a href="#personaltastes">Gostos pessoais</a>
 						</LinkItem>
 						<LinkItem>
-							<a href="#">Motivações</a>
+							<a href="#motivations">Motivações</a>
 						</LinkItem>
 					</Links>
 				</nav>
