@@ -1,7 +1,7 @@
-import { HeaderBar, ContainerBar, LinkItem, Links, Logo } from './styles'
+import { HeaderBar, ContainerBar, LinkItem, Links, Logo } from "./styles";
 
-import logo from '../../assets/images/logo.png'
-import { Link } from 'react-router-dom'
+import logo from "../../assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 	return (
@@ -16,20 +16,20 @@ const Header = () => {
 					<nav>
 						<Links>
 							<LinkItem>
-								<a href="#">Sobre</a>
+								<a href="#about">Sobre</a>
 							</LinkItem>
 							<LinkItem>
-								<a href="#">Gostos pessoais</a>
+								<a href="#personaltastes">Gostos pessoais</a>
 							</LinkItem>
 							<LinkItem>
-								<a href="#">Motivações</a>
+								<a href="#motivations">Motivações</a>
 							</LinkItem>
 						</Links>
 					</nav>
 				</ContainerBar>
 			</div>
 		</HeaderBar>
-	)
-}
+	);
+};
 
-export default Header
+export default Header;
